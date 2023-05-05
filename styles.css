@@ -1,0 +1,337 @@
+/* font-family: 'Indie Flower', cursive;
+font-family: 'Noto Serif', serif;
+font-family: 'Source Sans Pro', sans-serif; 
+font-family: 'Courgette', cursive;
+*/
+body
+{
+    background-image:  linear-gradient(#7a8fd3, #3e3b92);
+}
+*
+{
+    color: aliceblue;
+}
+
+* h1
+{
+    font-family: 'Noto Serif', serif;
+}
+
+.container
+{
+    padding: 20px 50px;
+}
+
+.navbar
+{
+    margin: 0 50px;
+    font-size: 25px;
+    font-family: 'Noto Serif', serif;
+}
+
+.nav li{
+    float:left;
+}
+
+.navbar h1
+{
+    font-size: 50px;
+}
+
+.navbar-collapse ul li
+{
+    list-style: none;
+    padding: 0 20px;
+}
+
+.navbar-collapse ul li a
+{
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.row-sym
+{
+    padding-top:15vh;
+    display: flex;
+    justify-content: center;
+}
+.title
+{
+    justify-content: center;
+    display: flex;
+    font-size: large;
+    padding-bottom: 20px;
+}
+
+.subtitle
+{
+    justify-content: center;
+    display: flex;
+    font-family: 'Indie Flower', cursive;
+    font-size: 50px;
+}
+
+.h-row
+{
+    padding: 20px;
+    padding-bottom: 20vh;
+}
+
+span
+{
+    color: antiquewhite;
+}
+
+#skills
+{
+    padding-top: 100px;
+}
+#skills .container
+{
+    padding: 10px;
+    text-align: center;
+}
+#skills .container h1
+{
+    padding-bottom: 10vh;
+}
+.icons
+{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons .col-2
+{
+    margin-top: 40px;
+    align-items: center;
+}
+
+.icon-img
+{
+    padding-top: 25px;
+    width: 100px;
+}
+
+/* Projects section */
+.pro-section
+{
+    padding-top: 150px;
+}
+
+.pro-section h1
+{
+    font-family: 'Noto Serif', serif;
+    padding-bottom: 100px;
+}
+
+.card img
+{
+    width: 100%;
+}
+
+.card
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 18rem;
+    border: 5px solid black;
+    border-style: double;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: #000;
+}
+.card .card-body
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    text-align: left;
+    background-color: #596ca9;
+}
+
+.pro-section .button-bt
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+.btn-primary
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    border-style: none;
+    background-color:  #596ca9 !important;
+}
+
+.btn-primary:active
+{
+    background-color:  #6a80c9 !important;
+}
+
+.btn-primary:hover
+{
+    background-color: #9bafd9 !important;
+}
+
+/* Contact */
+#contact .container
+{
+    font-family: 'Noto Serif', serif;
+}
+.contact-l
+{
+    flex-basis: 50% !important;
+}
+.contact-r
+{
+    flex-basis: 50% !important;
+}
+.contact-l p
+{
+    margin-top: 30px;
+}
+.contact-l p i
+{
+    margin-right: 15px;
+    font-size: 25px;
+    color: #a0b5f8;
+}
+.contact-r form
+{
+    width: 100%;
+}
+form input, form textarea
+{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #fff;
+    padding: 15px;
+    margin: 15px 0;
+    color: #000;
+    font-size: 18px;
+    border-radius: 6px;
+}
+form .btn2
+{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 30px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #566ebc;
+}
+.copyright
+{
+    width: 100%;
+    text-align: center;
+    padding: 70px 0 15px 0;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+#msg
+{
+    color: #8247B3;
+    margin-top: -40px;
+    display: block;
+}
+
+
+/* Spinner animation */
+@keyframes spin3D {
+    from {
+      transform: rotate3d(.5,.5,.5, 360deg);
+    }
+    to{
+      transform: rotate3d(0deg);
+    }
+  }
+
+.spinner-box {
+    padding-top: 50px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.leo {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+}
+
+.blue-orbit {
+	width: 165px;
+	height: 165px;
+  border: 1px solid #91daffa5;
+  -webkit-animation: spin3D 3s linear .2s infinite;
+}
+
+.green-orbit {
+	width: 120px;
+	height: 120px;
+  border: 1px solid #91ffbfa5;
+  -webkit-animation: spin3D 2s linear 0s infinite;
+}
+
+.red-orbit {
+	width: 90px;
+	height: 90px;
+  border: 1px solid #ffca91a5;
+  -webkit-animation: spin3D 1s linear 0s infinite;
+}
+
+.white-orbit {
+	width: 60px;
+	height: 60px;
+  border: 2px solid #ffffff;
+  -webkit-animation: spin3D 10s linear 0s infinite;
+}
+
+.w1 {
+  transform: rotate3D(1, 1, 1, 90deg);
+}
+
+.w2 {
+  transform: rotate3D(1, 2, .5, 90deg);
+}
+
+.w3 {
+  transform: rotate3D(.5, 1, 2, 90deg);
+}
+
+/* Subtitle animation */
+.subtitle h2 {
+    border-right: solid 3px rgba(255, 255, 255, 0.75);
+    white-space: nowrap;
+    overflow: hidden;
+    color: rgba(255,255,255,.70);
+  }
+  
+/* Animation */
+.subtitle h2 {
+animation: animated-text 4s steps(30,end) 1s 1 normal both,
+            animated-cursor 800ms steps(20,end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+from{width: 0;}
+to{width: 420px;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+from{border-right-color: rgba(255, 255, 255, 0.6);}
+to{border-right-color: transparent;}
+}
